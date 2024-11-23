@@ -39,7 +39,7 @@ remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
-online_mode: false
+online_mode: true
 forge_support: true
 disabled_commands:
 - disabledcommandhere
@@ -47,4 +47,8 @@ servers:
   lobby:
     motd: '&1Just another Waterfall - Forced Host'
     address: localhost:25565
+    restricted: false
+  bedwars:
+    motd: '&1Just another Waterfall - Forced Host'
+    adress: localhost:25565
     restricted: false
